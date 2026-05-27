@@ -1,0 +1,24 @@
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Local runtime files
+request.json
+*.pid
+*.crash
+*.ips
+
+# Build artifacts
+build/
+dist/
+*.o
+*.out
+*.dSYM/
+
+# Local secrets/config
+.env
+.env.*
+secrets.*
+tokens.*
